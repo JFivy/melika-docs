@@ -20,7 +20,7 @@ Documentos detallados sobre las funcionalidades, reglas de negocio y alcance del
 </div>
 
 <div style={{ marginBottom: '1rem' }}>
-  <a className="button button--primary button--outline" href="/descargas/Informe_de_Calidad_y_Pruebas.pdf" download>
+  <a className="button button--primary button--outline" href="/melika-docs/descargas/Informe_de_Calidad_y_Pruebas.pdf" download>
     ✅ Informe de Calidad y Pruebas (PDF)
   </a>
 </div>
