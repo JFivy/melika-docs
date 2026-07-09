@@ -7,15 +7,16 @@ const config = {
   tagline: 'Plataforma de Gestión Médica',
   favicon: 'img/favicon.ico',
 
-  url: 'https://tu-sitio-melika.com', 
-  baseUrl: '/',
-
-  organizationName: 'tu-usuario', // Puedes cambiarlo por tu usuario de GitHub
-  projectName: 'melika', // El nombre de tu repositorio
+  // --- CONFIGURACIÓN EXACTA PARA GITHUB PAGES ---
+  url: 'https://JFivy.github.io', 
+  baseUrl: '/melika-docs/',
+  organizationName: 'JFivy', 
+  projectName: 'melika-docs', 
+  trailingSlash: false,
+  // ----------------------------------------------
 
   onBrokenLinks: 'throw',
 
-  // Cambiado a español
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
@@ -28,9 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Se eliminó editUrl para no enlazar al GitHub de Docusaurus
         },
-        // ¡Magia! Esto desactiva el blog por completo
         blog: false, 
         theme: {
           customCss: './src/css/custom.css',
@@ -50,7 +49,7 @@ const config = {
         title: 'Melika',
         logo: {
           alt: 'Logo Melika',
-          src: 'img/logo.svg', // Si tienes un logo propio, asegúrate de que se llame logo.svg en la carpeta static/img/
+          src: 'img/logo.svg', 
         },
         items: [
           {
@@ -59,9 +58,8 @@ const config = {
             position: 'left',
             label: 'Documentación',
           },
-          // Se eliminó el enlace del Blog de aquí
           {
-            href: 'https://github.com/tu-usuario/melika', // Cambia esto por la URL de tu repositorio
+            href: 'https://github.com/JFivy/melika-docs', 
             label: 'GitHub',
             position: 'right',
           },
@@ -75,7 +73,7 @@ const config = {
             items: [
               {
                 label: 'Entregables y Descargas',
-                to: '/docs/descargas-melika', // Redirige directo a tu página
+                to: '/docs/descargas-melika', 
               },
             ],
           },
@@ -84,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Repositorio GitHub',
-                href: 'https://github.com/tu-usuario/melika',
+                href: 'https://github.com/JFivy/melika-docs', 
               },
             ],
           },

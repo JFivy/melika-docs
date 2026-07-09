@@ -20,6 +20,13 @@ Documentos detallados sobre las funcionalidades, reglas de negocio y alcance del
 </div>
 
 <div style={{ marginBottom: '1rem' }}>
+  <a className="button button--primary button--outline" href="/descargas/Informe_de_Calidad_y_Pruebas.pdf" download>
+    ✅ Informe de Calidad y Pruebas (PDF)
+  </a>
+</div>
+
+
+<div style={{ marginBottom: '1rem' }}>
   <a className="button button--primary button--outline" href="/descargas/Especificacion_final_de_requisitos_y_diagramas.pdf" download>
     📄 Especificación Final de Requisitos y Diagramas (PDF)
   </a>
@@ -111,20 +118,20 @@ A continuación, puedes visualizar las sustentaciones, demos y explicaciones té
   </iframe>
 </div>
 
-### 2. Sustentación / Demo del Proyecto (Parte 1)
+### 2. Sustentación / manual de usuario Melika 
 <div style={{ marginBottom: '2rem' }}>
   <iframe 
     width="100%" 
     height="450" 
-    src="https://www.youtube.com/embed/Td8XI-3fHWs" 
-    title="Sustentación Melika 1" 
+    src="https://drive.google.com/file/d/12x1cL6OvjX2_8GwPlwtzyftJi5HwfUye/preview" 
+    title="Sustentación Melika 3" 
     frameBorder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowFullScreen>
   </iframe>
 </div>
 
-### 3. Sustentación / Demo del Proyecto (Parte 2)
+### 3. Sustentación / Demo del Proyecto 
 <div style={{ marginBottom: '2rem' }}>
   <iframe 
     width="100%" 
